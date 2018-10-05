@@ -16,4 +16,4 @@ This is my contribution back to FUEL-CMS, i have developed few modules for proje
 
   4)    Add "gallerymanager" to the $config['modules_allowed'] in fuel/application/config/MY_fuel.php
 
-  5)    Create a "GalleryImages" folder in gallerymanager/assets/ and give rd permissions.
+  5)    Give read,write permissions to "GalleryImages" folder in located in gallerymanager/assets/.
