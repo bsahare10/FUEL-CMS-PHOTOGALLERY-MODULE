@@ -8,12 +8,12 @@ This is my contribution back to FUEL-CMS, i have developed few modules for proje
 
   Installation is simple as other modules installation just with few new chnages and conf 
 
-  1)    Download the zip file from GitHub: https://github.com/bsahare10/FUEL-CMS-MODULE-NEWS-MANAGER
+  1)    Download/clone the zip file from GitHub: https://github.com/bsahare10/FUEL-CMS-PHOTOGALLERY-MODULE
 
-  2)    Create a "news" folder in fuel/modules/ and place the contents of the extract-zip file in there
+  2)    Create a "gallerymanager" folder in fuel/modules/ and place the contents of the extract-zip file there
 
-  3)    Import the news_groups.sql & news_pics.sql from the news/install folder into your database
+  3)    Import the gallery_groups.sql & gallery_pics.sql from the gallerymanager/install folder into your database
 
-  4)    Add "news" to the $config['modules_allowed'] in fuel/application/config/MY_fuel.php
+  4)    Add "gallerymanager" to the $config['modules_allowed'] in fuel/application/config/MY_fuel.php
 
-  5)    Create a "NewsImages" folder in fuel/modules/assets and give rd permissions.
+  5)    Create a "GalleryImages" folder in gallerymanager/assets/ and give rd permissions.
